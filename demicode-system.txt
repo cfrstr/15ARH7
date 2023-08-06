@@ -1,0 +1,26 @@
+bash-5.2$ sudo dmidecode -t system
+# dmidecode 3.4
+Getting SMBIOS data from sysfs.
+SMBIOS 3.4.0 present.
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: LENOVO
+	Product Name: 82SB
+	Version: IdeaPad Gaming 3 15ARH7
+	Serial Number: redacted
+	UUID: redacted
+	Wake-up Type: Power Switch
+	SKU Number: LENOVO_MT_82SB_BU_idea_FM_IdeaPad Gaming 3 15ARH7
+	Family: IdeaPad Gaming 3 15ARH7
+
+Handle 0x001B, DMI type 12, 5 bytes
+System Configuration Options
+	Option 1: String1 for Type12 Equipment Manufacturer
+	Option 2: String2 for Type12 Equipment Manufacturer
+	Option 3: String3 for Type12 Equipment Manufacturer
+	Option 4: String4 for Type12 Equipment Manufacturer
+
+Handle 0x002A, DMI type 32, 20 bytes
+System Boot Information
+	Status: No errors detected

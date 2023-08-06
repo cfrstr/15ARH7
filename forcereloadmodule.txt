@@ -1,0 +1,18 @@
+[Sun Aug  6 02:05:57 2023] legion_laptop: legion_laptop exit
+[Sun Aug  6 02:05:57 2023] legion_laptop: legion_laptop starts loading
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: legion_laptop platform driver probing
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: Read identifying information: DMI_SYS_VENDOR: LENOVO; DMI_PRODUCT_NAME: 82SB; DMI_BIOS_VERSION:JNCN44WW(V2.04)
+[Sun Aug  6 02:05:57 2023] legion_laptop: Read identifying information: DMI_SYS_VENDOR: LENOVO; DMI_PRODUCT_NAME: 82SB; DMI_BIOS_VERSION:JNCN44WW(V2.04)
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: is_denied: 0; is_allowed: 0; do_load_by_list: 0; do_load: 1
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: legion_laptop is forced to load.
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: legion_laptop is forced to load and would otherwise be not loaded
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: Using configuration for system: GKCN
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: Could not evaluate ACPI _STA
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: Could not init ACPI access: -5
+[Sun Aug  6 02:05:57 2023] legion_laptop: Unloading legion shared
+[Sun Aug  6 02:05:57 2023] legion_laptop: Unloading legion shared done
+[Sun Aug  6 02:05:57 2023] legion PNP0C09:00: legion_laptop not loaded for this device
+[Sun Aug  6 02:05:57 2023] legion: probe of PNP0C09:00 failed with error -5
+bash -c "./issue-warning.sh"
+  If you have a 2022 or 2023 model, please help testing the new features 'here'
+  If you have a light in the lid (Y-logo) or at the IO-ports (all Legion 7), please help testing controlling it 'here' 

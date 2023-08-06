@@ -1,0 +1,626 @@
+########################################
+########################################
+########################################
+Name: LENOVO_UTILITY_EVENT
+Class Name: LENOVO_UTILITY_EVENT
+Class GUID: {8fc0de0c-b4e4-43fd-b0f3-8871711c1294}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_SMART_FAN_SETTING_EVENT
+Class Name: LENOVO_GAMEZONE_SMART_FAN_SETTING_EVENT
+Class GUID: {D320289E-8FEA-41E1-86F9-611D83151B5F}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_KEYLOCK_STATUS_EVENT
+Class Name: LENOVO_GAMEZONE_KEYLOCK_STATUS_EVENT
+Class GUID: {10AFC6D9-EA8B-4590-A2E7-1CD3C84BB4B1}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_SMART_FAN_MODE_EVENT
+Class Name: LENOVO_GAMEZONE_SMART_FAN_MODE_EVENT
+Class GUID: {D320289E-8FEA-41E0-86F9-611D83151B5F}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_TEMP_EVENT
+Class Name: LENOVO_GAMEZONE_TEMP_EVENT
+Class GUID: {BFD42481-AEE3-4501-A107-AFB68425C5F8}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_THERMAL_MODE_EVENT
+Class Name: LENOVO_GAMEZONE_THERMAL_MODE_EVENT
+Class GUID: {D320289E-8FEA-41E0-86F9-911D83151B5F}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_LIGHT_PROFILE_CHANGE_EVENT
+Class Name: LENOVO_GAMEZONE_LIGHT_PROFILE_CHANGE_EVENT
+Class GUID: {D320289E-8FEA-41E0-86F9-811D83151B5F}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_OC_EVENT
+Class Name: LENOVO_GAMEZONE_OC_EVENT
+Class GUID: {D062906B-12D4-4510-999D-4831EE80E985}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_FAN_COOLING_EVENT
+Class Name: LENOVO_GAMEZONE_FAN_COOLING_EVENT
+Class GUID: {BC72A435-E8C1-4275-B3E2-D8B8074ABA59}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_POWER_CHARGE_MODE_EVENT
+Class Name: LENOVO_GAMEZONE_POWER_CHARGE_MODE_EVENT
+Class GUID: {D320289E-8FEA-41E0-86F9-711D83151B5F}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_GPU_TEMP_EVENT
+Class Name: LENOVO_GAMEZONE_GPU_TEMP_EVENT
+Class GUID: {BFD42481-AEE3-4502-A107-AFB68425C5F8}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_UTILITY_DATA
+Class Name: LENOVO_UTILITY_DATA
+Class GUID: {ce6c0974-0407-4f50-88ba-4fc3b6559ad8}
+Description: 1
+Methods:
+Name: GetIfSupportOrVersion
+WmiMethodId: 1
+Class Name: LENOVO_UTILITY_DATA
+Class GUID: {ce6c0974-0407-4f50-88ba-4fc3b6559ad8}
+Description: Utility 3.1 function is Support or the function Version
+Implemented: True
+
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_DATA
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: 68
+Methods:
+Name: GetIRTemp
+WmiMethodId: 1
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get IR temp
+Implemented: True
+
+Name: GetThermalTableID
+WmiMethodId: 2
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get ThermalTable ID
+Implemented: True
+
+Name: SetThermalTableID
+WmiMethodId: 3
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set ThermalTable ID
+Implemented: True
+
+Name: IsSupportGpuOC
+WmiMethodId: 4
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Is SupportGpu OverClock
+Implemented: True
+
+Name: GetGpuGpsState
+WmiMethodId: 5
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get GpuGpsState
+Implemented: True
+
+Name: SetGpuGpsState
+WmiMethodId: 6
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set GpuGpsState
+Implemented: True
+
+Name: GetFanCount
+WmiMethodId: 7
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Fan Count
+Implemented: True
+
+Name: GetFan1Speed
+WmiMethodId: 8
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Fan1 Speed
+Implemented: True
+
+Name: GetFan2Speed
+WmiMethodId: 9
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Fan2 Speed
+Implemented: True
+
+Name: GetFanMaxSpeed
+WmiMethodId: 10
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Fan Max Speed
+Implemented: True
+
+Name: GetVersion
+WmiMethodId: 11
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get AslCode Version
+Implemented: True
+
+Name: IsSupportFanCooling
+WmiMethodId: 12
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Fan cooling capabilty
+Implemented: True
+
+Name: SetFanCooling
+WmiMethodId: 13
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set Fan cooling on/off
+Implemented: True
+
+Name: IsSupportCpuOC
+WmiMethodId: 14
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: cpu oc capability
+Implemented: True
+
+Name: IsBIOSSupportOC
+WmiMethodId: 15
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: bios has overclock capability
+Implemented: True
+
+Name: SetBIOSOC
+WmiMethodId: 16
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: enble or disable overclock in bios
+Implemented: True
+
+Name: GetTriggerTemperatureValue
+WmiMethodId: 17
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get temperature change trigger temp value
+Implemented: True
+
+Name: GetCPUTemp
+WmiMethodId: 18
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get CPU temperature
+Implemented: True
+
+Name: GetGPUTemp
+WmiMethodId: 19
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get GPU temperature
+Implemented: True
+
+Name: GetFanCoolingStatus
+WmiMethodId: 20
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Fan cooling on/off status
+Implemented: True
+
+Name: IsSupportDisableWinKey
+WmiMethodId: 21
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: EC support disable windows key capability
+Implemented: True
+
+Name: SetWinKeyStatus
+WmiMethodId: 22
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set windows key disable/enable
+Implemented: True
+
+Name: GetWinKeyStatus
+WmiMethodId: 23
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get windows key disable/enable status
+Implemented: True
+
+Name: IsSupportDisableTP
+WmiMethodId: 24
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: EC support disable touchpad capability
+Implemented: True
+
+Name: SetTPStatus
+WmiMethodId: 25
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set touchpad disable/enable
+Implemented: True
+
+Name: GetTPStatus
+WmiMethodId: 26
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get touchpad disable/enable status
+Implemented: True
+
+Name: GetGPUPow
+WmiMethodId: 27
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get GPU normal mode max TDP(W)
+Implemented: True
+
+Name: GetGPUOCPow
+WmiMethodId: 28
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get GPU OC mode max TDP(W)
+Implemented: True
+
+Name: GetGPUOCType
+WmiMethodId: 29
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get GPU OC type
+Implemented: True
+
+Name: GetKeyboardfeaturelist
+WmiMethodId: 30
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Keyboard feature list
+Implemented: True
+
+Name: GetMemoryOCInfo
+WmiMethodId: 31
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Memory OC Information
+Implemented: True
+
+Name: IsSupportWaterCooling
+WmiMethodId: 32
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Water Cooling feature capability
+Implemented: True
+
+Name: SetWaterCoolingStatus
+WmiMethodId: 33
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set Water Cooling status
+Implemented: True
+
+Name: GetWaterCoolingStatus
+WmiMethodId: 34
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Water Cooling status
+Implemented: True
+
+Name: IsSupportLightingFeature
+WmiMethodId: 35
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Lighting feature capability
+Implemented: True
+
+Name: SetKeyboardLight
+WmiMethodId: 36
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set keyboard light off or on to max
+Implemented: True
+
+Name: GetKeyboardLight
+WmiMethodId: 37
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get keyboard light on/off status
+Implemented: True
+
+Name: GetMacrokeyScancode
+WmiMethodId: 38
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Macrokey scan code
+Implemented: True
+
+Name: GetMacrokeyCount
+WmiMethodId: 39
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Macrokey count
+Implemented: True
+
+Name: IsSupportGSync
+WmiMethodId: 40
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Support G-Sync feature
+Implemented: True
+
+Name: GetGSyncStatus
+WmiMethodId: 41
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get G-Sync Statust
+Implemented: True
+
+Name: SetGSyncStatus
+WmiMethodId: 42
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set G-Sync Statust
+Implemented: True
+
+Name: IsSupportSmartFan
+WmiMethodId: 43
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Support Smart Fan feature
+Implemented: True
+
+Name: SetSmartFanMode
+WmiMethodId: 44
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set Smart Fan Mode
+Implemented: True
+
+Name: GetSmartFanMode
+WmiMethodId: 45
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Smart Fan Mode
+Implemented: True
+
+Name: GetSmartFanSetting
+WmiMethodId: 46
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Smart Fan Setting Mode
+Implemented: True
+
+Name: GetPowerChargeMode
+WmiMethodId: 47
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Power Charge Mode
+Implemented: True
+
+Name: GetProductInfo
+WmiMethodId: 48
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Gaming Product Info
+Implemented: True
+
+Name: IsSupportOD
+WmiMethodId: 49
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Over Drive feature capability
+Implemented: True
+
+Name: GetODStatus
+WmiMethodId: 50
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Over Drive status
+Implemented: True
+
+Name: SetODStatus
+WmiMethodId: 51
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set Over Drive status
+Implemented: True
+
+Name: SetLightControlOwner
+WmiMethodId: 52
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set Light Control Owner
+Implemented: True
+
+Name: SetDDSControlOwner
+WmiMethodId: 53
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set DDS Control Owner
+Implemented: True
+
+Name: IsRestoreOCValue
+WmiMethodId: 54
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get the flag of restore OC value
+Implemented: True
+
+Name: GetThermalMode
+WmiMethodId: 55
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Real Thremal Mode
+Implemented: True
+
+Name: GetBIOSOCMode
+WmiMethodId: 56
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get the OC switch status in BIOS
+Implemented: True
+
+Name: SetIntelligentSubMode
+WmiMethodId: 57
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set the current mode in Intelligent Mode
+Implemented: True
+
+Name: GetIntelligentSubMode
+WmiMethodId: 58
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get the current mode in Intelligent Mode
+Implemented: True
+
+Name: GetHardwareInfoSupportVersion
+WmiMethodId: 59
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get hardware info support version
+Implemented: True
+
+Name: GetCpuFrequency
+WmiMethodId: 60
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Cpu core 0 max frequency
+Implemented: True
+
+Name: GetLearningProfileCount
+WmiMethodId: 61
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get Total count of Learning Profile
+Implemented: True
+
+Name: IsACFitForOC
+WmiMethodId: 62
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Check the Adapter type fit for OC
+Implemented: True
+
+Name: IsSupportIGPUMode
+WmiMethodId: 63
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Is support IGPU mode
+Implemented: True
+
+Name: GetIGPUModeStatus
+WmiMethodId: 64
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get IGPU Mode Status
+Implemented: True
+
+Name: SetIGPUModeStatus
+WmiMethodId: 65
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Set IGPU Mode
+Implemented: True
+
+Name: NotifyDGPUStatus
+WmiMethodId: 66
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Notify DGPU Status
+Implemented: True
+
+Name: IsChangedYLog
+WmiMethodId: 67
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Is changed Y log
+Implemented: True
+
+Name: GetDGPUHWId
+WmiMethodId: 68
+Class Name: LENOVO_GAMEZONE_DATA
+Class GUID: {887B54E3-DDDC-4B2C-8B88-68A26A8835D0}
+Description: Get DGPU Hardwawre ID
+Implemented: True
+
+
+########################################
+########################################
+########################################
+Name: LENOVO_INTELLIGENT_OP_LIST
+Class Name: LENOVO_INTELLIGENT_OP_LIST
+Class GUID: {93A57CD3-BBC6-46AB-951D-31F17CC968A0}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_CPU_OC_DATA
+Class Name: LENOVO_GAMEZONE_CPU_OC_DATA
+Class GUID: {B7F3CA0A-ACDC-42D2-9217-77C6C628FBD2}
+Description: 0
+Methods:
+
+########################################
+########################################
+########################################
+Name: LENOVO_GAMEZONE_GPU_OC_DATA
+Class Name: LENOVO_GAMEZONE_GPU_OC_DATA
+Class GUID: {887B54E2-DDDC-4B2C-8B88-68A26A8835D0}
+Description: 0
+Methods:

@@ -1,0 +1,3 @@
+bash-5.2$ sudo cat /sys/kernel/debug/legion/fancurve
+cat: /sys/kernel/debug/legion/fancurve: No such file or directory
+
